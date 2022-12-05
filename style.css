@@ -1,0 +1,227 @@
+body {
+    background-color: #0a192f
+}
+
+.nav-link{
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    
+}
+
+.nav-link:hover{
+    color: aqua;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
+.number-menu{
+    color: aqua;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
+.presentacion {
+    z-index: -1;
+    height: 97vh;
+}
+
+#presentacion{
+    width: 60%
+}
+
+.my-name{
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-top:25vh;
+    font-weight: 500;
+    color: aqua;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nombre{
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #a8b2d1
+}
+
+.que_hago{
+    font-size: 4em;
+    font-weight:bolder;
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+}
+
+.descripcion{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+}
+
+.about-me{
+    z-index: -1;
+    height: 100vh;
+}
+@media (max-width: 375px) {
+    #presentacion{
+        width: 90%
+    }
+
+    .my-name{
+        margin-top:10vh;
+    }  
+
+    .nombre{
+        font-size: 2em;
+    }
+
+    .que_hago{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 576px) {
+    #presentacion{
+        width: 90%
+    }
+
+    /* .my-name{
+        margin-top:25vh;
+    } */ 
+
+    .nombre{
+        font-size: 2em;
+    }
+
+    .que_hago{
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 576px) and (max-width:992px){
+    #presentacion{
+        width: 90%;
+    }
+
+    .nombre{
+        font-size: 2em;
+    }
+
+    .que_hago{
+        font-size: 2em;
+    }
+
+    .resume{
+        margin-top: 25px;
+        padding:10px 20px;
+        border-radius:5px;
+        background-color: transparent;
+        color: aqua;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 200;
+        font-size: 1rem;
+    }
+}  
+
+
+
+.resume{
+    margin-top: 25px;
+    padding:10px 20px;
+    border-radius:5px;
+    background-color: transparent;
+    border: solid 1px aqua;
+    color: aqua;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.resume:active{
+    padding:10px 20px;
+    border-radius:5px;
+    background-color: aqua;
+    border: solid 2px aqua;
+    color: #112240;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+} 
+
+#aboutme{
+    width: 90%;
+    margin-top: 5vh
+}
+
+.header-section{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+}
+
+.number{
+    color: aqua;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.line-header{
+    border: solid 1px aqua;
+}
+
+.text-about{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+    font-size: 1rem;
+}
+
+.technologies{
+    margin: 0;
+    padding: 0;
+    color: #8892b0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.icon{
+    color: aqua;
+}
+
+@media (max-width: 375px) {
+    .text-about{
+        font-size: 0.7rem;
+    }
+
+    
+    .technologies{
+        font-size: .5rem;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width:992px){
+    #aboutme{
+        margin-top: 15vh
+    }
+
+    .header-section{
+        color: #8892b0;
+    }
+} 
+
+
+@media (min-width: 992px){
+    #aboutme{
+        width: 50%;
+        margin-top: 20vh
+    }
+} 
+
