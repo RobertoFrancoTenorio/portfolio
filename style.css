@@ -63,6 +63,7 @@ body {
 .about-me{
     z-index: -1;
     height: 100vh;
+    margin-bottom: 10vh;
 }
 @media (max-width: 375px) {
     #presentacion{
@@ -125,8 +126,6 @@ body {
     }
 }  
 
-
-
 .resume{
     margin-top: 25px;
     padding:10px 20px;
@@ -151,7 +150,8 @@ body {
 
 #aboutme{
     width: 90%;
-    margin-top: 5vh
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .header-section{
@@ -225,3 +225,65 @@ body {
     }
 } 
 
+
+.working-experience{
+    z-index: -1;
+    height: 90vh;
+}
+
+.accordion{
+    margin-top: 5vh;
+}
+
+.accordion-body{
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.accordion-item{
+    background-color: transparent;
+}
+
+.accordion-button{
+    background-color: transparent;
+}
+
+.button_span{
+    width: 100%;
+    padding: 20px;
+}
+
+.button_span:visited{
+    width: 100%;
+    padding: 20px;
+    background-color: red;
+}
+
+.place{
+    padding: 10px 0px 0px 20px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+    font-size: 1rem;
+}
+
+.date{
+    padding: 10px 0 100px 20px;
+    margin: 0;
+    color: aqua;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+@media (min-width: 576px) and (max-width:992px){
+    #aboutme{
+        margin-top: 15vh
+    }
+
+    .header-section{
+        color: #8892b0;
+    }
+} 
