@@ -15,6 +15,12 @@ body {
     font-weight: 200;
 }
 
+.nav-link:visited{
+    color: aqua;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
 .number-menu{
     color: aqua;
     font-family: 'Roboto Mono', monospace;
@@ -106,6 +112,18 @@ body {
         width: 90%;
     }
 
+    .presentacion {
+        z-index: -1;
+        height: 70vh;
+        margin-bottom: 30vh
+    }
+    
+    .about-me{
+        z-index: -1;
+        margin-top: 10vh;
+        height: 80vh;
+        margin-bottom: 10vh;
+    } 
     .nombre{
         font-size: 2em;
     }
@@ -153,6 +171,13 @@ body {
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
+
+@media (min-width: 576px) and (max-width:992px){
+    #aboutme{
+        width: 90%;
+        margin: 0;
+    }
+}  
 
 .header-section{
     margin: 0;
@@ -228,12 +253,23 @@ body {
 
 .working-experience{
     z-index: -1;
-    height: 90vh;
 }
 
 .accordion{
     margin-top: 5vh;
 }
+
+@media (max-width: 375px){
+    .accordion{
+        margin-bottom: 15vh;
+    }
+} 
+
+@media (min-width: 375px){
+    .accordion{
+        margin-bottom: 15vh;
+    }
+} 
 
 .accordion-body{
     font-family: 'Poppins', sans-serif;
@@ -287,3 +323,69 @@ body {
         color: #8892b0;
     }
 } 
+
+.techs{
+    height: 100vh;
+}
+
+.header-tech{
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card{
+    margin: 0px 0px 0px 0px;
+    padding: auto;
+    background-color: #0e2241;
+    height: 25vh
+}
+
+.cards{
+    width: 80%
+}
+
+.img-fluid{
+    margin-top: 5vh;
+}
+
+.card-title{
+    font-family: 'Roboto Mono', monospace;
+    color: aqua;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.card-text{
+    margin: 0;
+    padding: 0;
+    color: #8892b0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.row{
+    margin: 0px 0px 0px 0px;
+    padding: auto
+}
+
+@media (min-width: 993px){
+    .card{
+        height: 30vh
+    }
+}
+
+@media (max-width: 993px){
+    .card{
+        height: 30vh
+    }
+}
+
+@media (min-width: 576px) and (max-width:992px){
+    .techs {
+
+    }
+}  
