@@ -174,8 +174,8 @@ body {
 }
 
 .text-about{
-    margin: 0;
     padding: 0;
+    margin-top: 10vh;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     color: #8892b0;
