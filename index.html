@@ -9,10 +9,10 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
-    </script>
+        </script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,10 +51,13 @@
     <section class="presentacion">
         <div class="container-sm" id="presentacion">
             <div class="row">
-                <div class="col-sm-12 col-md-10">
+                <div class="col-sm-12 col-md-12 col-lg-5">
                     <h6 class="my-name">Hi, my name is</h6>
                     <br>
                     <h1 class="nombre">Roberto Franco.</h1>
+                    
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
                     <h1 class="que_hago">Ingeniero en Informática.</h1>
                     <br>
                 </div>
@@ -78,24 +81,26 @@
                 <div class="col-6 col-md-5">
                     <hr class="line-header">
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-md-12 col-lg-7">
                     <small class="text-about">
                         Hello! My name is Roberto Carlos Franco Tenorio and I enjoy <code>coding</code> and designing
-                        web aplications. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns
+                        web aplications. My interest in web development started back in 2012 when I decided to try
+                        editing custom Tumblr themes — turns
                         out hacking together a custom reblog button taught me a lot about HTML & CSS!
                         <br><br>
-                        My story is really courious because when I realiced admision procedures to the University, Ingeniería en Informática it was not my first choice
-                        but destiny put me on this career and decided accept study this carrer, I discovered I´m enjoy everything related whit IT.
+                        My story is really courious because when I realiced admision procedures to the University,
+                        Ingeniería en Informática it was not my first choice
+                        but destiny put me on this career and decided accept study this carrer, I discovered I´m enjoy
+                        everything related whit IT.
                         <br><br>
-                        I´m 
+                        I´m
                         <br><br>
                         Here are a few technologies I’ve been working with recently:
                     </small>
                     <br>
                 </div>
-                <div class="d-none d-sm-block col-12 col-md-5">
-                    <br>
-                    <img src="Assets/avatar.jpg" alt="" class="img-fluid">
+                <div class=" col-12 col-md-12 col-lg-5">
+                    <img src="Assets/foto.jpg" alt="" id="foto" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -104,10 +109,10 @@
     <section class="working-experience">
         <div class="container-sm" id="works">
             <div class="row">
-                <div class="col-auto">
+                <div class="col-auto" id="header-section">
                     <span class="header-section"><span class="number">02.</span>Where I’ve Worked</span>
                 </div>
-                <div class="col-4 col-md-5">
+                <div class="col-4 col-md-5" id="header-section">
                     <hr class="line-header">
                 </div>
                 <div class="col-12">
@@ -117,20 +122,21 @@
                             <h2 class="accordion-header" id="headingOne">
                                 <span class="button_span" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h5 class="place">Studio Developer</h5>
-                                    <small class="date">July - August 2018</small>
+                                    <h5 class="place">SEL MEDICA (Full-stack developer)</h5>
+                                    <small class="date">Sept. 2021 - Present</small>
                                     <br>
                                 </span>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <div class="row">
+                                        <div class="col-12">
+                                            Development of web platforms using <code>Angular</code>, <code>Firebase</code>, <code>Laravel</code> and <code>MySQL</code> for desktop and its mobile version with <code>Ionic</code> for the medical sector
+                                            with functions for taking samples, capturing patients, carrying out studies and
+                                            consultations.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -192,68 +198,80 @@
                         <img src="Assets/ts.svg" class="img-fluid mx-auto d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Typescript</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <p class="card-text">TypeScript extends JavaScript and improves the developer experience. It
+                                enables developers to add type safety to their projects. Moreover, TypeScript provides
+                                various other features, like interfaces, type aliases, abstract classes, function
+                                overloading, tuple, generics, etc.</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="col-12 col-md-4 col-lg-3">
                     <br>
                     <div class="card">
-                        <img src="Assets/angular.svg" class="img-fluid mx-auto d-block" alt="...">
+                        <img src="Assets/angular.svg" id="logo" class="img-fluid mx-auto d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Angular</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <p class="card-text">Angular is a platform and framework for building single-page client
+                                applications using HTML and TypeScript. Angular is written in TypeScript. It implements
+                                core and optional functionality as a set of TypeScript libraries that you import into
+                                your applications.</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="col-12 col-md-4 col-lg-3">
                     <br>
                     <div class="card">
                         <img src="Assets/icons8-iónico-50.png" class="img-fluid mx-auto d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ionic</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <p class="card-text">Ionic provides a set of tools for building native iOS and Android
+                                applications, and mobile-ready Progressive Web Apps, using familiar web libraries,
+                                frameworks, and languages. Ionic Capacitor is a cross-platform native bridge that allows
+                                you to turn any web project into a native iOS or Android mobile application.</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="col-12 col-md-4 col-lg-3">
                     <br>
                     <div class="card">
                         <img src="Assets/laravel.png" class="img-fluid mx-auto d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Laravel</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <p class="card-text">Laravel attempts to take the pain out of development by easing common
+                                tasks used in the majority of web projects, such as authentication, routing, sessions,
+                                and caching. Laravel aims to make the development process a pleasing one for the
+                                developer without sacrificing application functionality.</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="col-12 col-md-4 col-lg-3">
                     <br>
                     <div class="card">
                         <img src="Assets/icons8-firebase.svg" class="img-fluid mx-auto d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Firebase</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <p class="card-text">Google Firebase is a Google-backed application development software
+                                that enables developers to develop iOS, Android and Web apps. Firebase provides tools
+                                for tracking analytics,
+                                reporting and fixing app crashes, creating marketing and product experiment.</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="col-12 col-md-4 col-lg-3">
                     <br>
                     <div class="card">
                         <img src="Assets/icons8-c-sharp-logotipo.svg" class="img-fluid mx-auto d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">C Sharp</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <p class="card-text">C# is a modern, object-oriented, and type-safe programming language. C#
+                                enables developers to build many types of secure and robust applications that run in .
+                                NET. C# has its roots in the C family of languages and will be immediately familiar to
+                                C, C++, Java, and JavaScript programmers.</p>
                         </div>
                     </div>
                 </div>
@@ -264,8 +282,10 @@
                         <img src="Assets/icons8-github.svg" class="img-fluid mx-auto d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Github</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <p class="card-text">GitHub is a code hosting platform for version control and
+                                collaboration. It lets you and others work together on projects from anywhere. This
+                                tutorial teaches you GitHub essentials like repositories, branches, commits, and pull
+                                requests</p>
                         </div>
                     </div>
                 </div>
@@ -276,15 +296,18 @@
                         <img src="Assets/icons8-logo-de-mysql.svg" class="img-fluid mx-auto d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">My SQL</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                            <p class="card-text">MySQL is a database management system.
+
+                                It may be anything from a simple shopping list to a picture gallery or the vast amounts
+                                of information in a corporate network. To add, access, and process data stored in a
+                                computer database, you need a database management system such as MySQL Server.</p>
                         </div>
                     </div>
                 </div>
                 <br>
             </div>
         </div>
-        
+
     </section>
 </body>
 
