@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Roberto Franco Web Presentation</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -31,17 +31,17 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"><span class="number-menu">01.</span>Home</a>
+                        <a class="nav-link" aria-current="page" href="#aboutme"><span class="number-menu">01.</span>About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="number-menu">02.</span>Features</a>
+                        <a class="nav-link" href="#working-experience"><span class="number-menu">02.</span>Where I’ve Worked</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="number-menu">03.</span>Pricing</a>
+                        <a class="nav-link" href="#techs"><span class="number-menu">03.</span>Technologies than I used</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#"><span class="number-menu">04.</span>Disabled</a>
-                    </li>
+                    </li> -->
 
                 </ul>
             </div>
@@ -51,7 +51,7 @@
     <section class="presentacion">
         <div class="container-sm" id="presentacion">
             <div class="row">
-                <div class="col-11 col-md-5 col-lg-5">
+                <div class="col-11 col-md-5 col-lg-6">
                     <h6 class="my-name">Hi, my name is</h6>
                     <br>
                     <h1 class="nombre">Roberto Franco.</h1>
@@ -62,11 +62,11 @@
                     <br>
                 </div>
                 <div class="col-sm-7 col-md-10">
-                    <small class="descripcion">I'm a 24 year old young man, passionate about technology, web design and
-                        everything related to technological innovation. I am recently graduated from
-                        the Computer Engineering career, at the Faculty of Engineering of the U.A.S.L.P</small>
+                    <small class="descripcion">
+                        I am a technological innovation enthusiast, passionate about software development. Proactive with a lot of willingness to learn everything that is necessary, without fear of new challenges, always focused on my personal and vocational growth, responsible with moral and professional ethics.
+                        </small>
                     <br>
-                    <button class="resume">Check out my Resume</button>
+                    <button class="resume"><a style="text-decoration: none; color: aqua" href="#aboutme">Check more about me!</a></button>
                 </div>
             </div>
         </div>
@@ -84,18 +84,14 @@
                 <div class="col-12 col-md-12 col-lg-7">
                     <small class="text-about">
                         Hello! My name is Roberto Carlos Franco Tenorio and I enjoy <code>coding</code> and designing
-                        web aplications. My interest in web development started back in 2012 when I decided to try
-                        editing custom Tumblr themes — turns
-                        out hacking together a custom reblog button taught me a lot about HTML & CSS!
+                        web aplications. My story begins in 2015, when for chances of the destination I have been reassigned at Informatic Engineer carreer,
+                        in first time I was so undecided to accept the oportunity, I investigate many things about the carrer and when finally understand what
+                        it was about I fell in love with the carreer.
                         <br><br>
-                        My story is really courious because when I realiced admision procedures to the University,
-                        Ingeniería en Informática it was not my first choice
-                        but destiny put me on this career and decided accept study this carrer, I discovered I´m enjoy
-                        everything related whit IT.
+                        I decided that I want dedicate to Web Development when I learn <code>HTML</code> and <code>CSS</code>, time after I start meet <code>JavaScript</code> frameworks
+                        as Angular, React, Vue and many others frameworks based in other programing languages how <code>Laravel</code>, is based in <code>PHP</code>.
                         <br><br>
-                        I´m
                         <br><br>
-                        Here are a few technologies I’ve been working with recently:
                     </small>
                     <br>
                 </div>
@@ -106,7 +102,7 @@
         </div>
     </section>
 
-    <section class="working-experience">
+    <section class="working-experience" id="working-experience">
         <div class="container-sm" id="works">
             <div class="row">
                 <div class="col-auto" id="header-section">
@@ -122,8 +118,8 @@
                             <h2 class="accordion-header" id="headingOne">
                                 <span class="button_span" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h5 class="place">SEL MEDICA (Full-stack developer)</h5>
-                                    <small class="date">Sept. 2021 - Present</small>
+                                    <h5 class="place"> Full-stack developer (DLN CLINICO)</h5>
+                                    <small class="date">SEL MEDICA, Sept. 2021 - March. 2023</small>
                                     <br>
                                 </span>
                             </h2>
@@ -132,9 +128,20 @@
                                 <div class="accordion-body">
                                     <div class="row">
                                         <div class="col-12">
-                                            Development of web platforms using <code>Angular</code>, <code>Firebase</code>, <code>Laravel</code> and <code>MySQL</code> for desktop and its mobile version with <code>Ionic</code> for the medical sector
-                                            with functions for taking samples, capturing patients, carrying out studies and
-                                            consultations.
+                                            Development of a web platform for the control of a clinic, which captures and manages information, for areas such as cardiology, ophthalmology and occupational medicine.
+Creation of modules for filling out patient questionnaires, using mobile devices.
+Creation of reports (pdf) with the information captured during the entire patient consultation.
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            Stack 
+                                            <div class="row">
+                                                <br>
+                                                <div class="col-12 col-md-5"><code>Angular</code></div>
+                                                <div class="col-12 col-md-5"><code>Firebase</code></div>
+                                                <div class="col-12 col-md-5"><code>Makepdf</code></div>
+                                                <div class="col-12 col-md-5"><code>Nebular</code></div>
+                                                <div class="col-12 col-md-5"><code>Bootstrap</code></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -144,20 +151,33 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <span class="button_span" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-                                    <h5 class="place">Studio Developer</h5>
-                                    <small class="date">July - August 2018</small>
+                                    <h5 class="place">Full Stack Developer (Proyecto Peregrino)</h5>
+                                    <small class="date">SEL MEDICA, Sept. 2021 - March. 2023</small>
                                     <br>
                                 </span>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <div class="row">
+                                        <div class="col-12">
+                                            System for the control of patients, with which the clinical history is captured, to schedule and carry out medical consultations, which are attended from the web application or mobile application, the latter can be linked to a phone call or WhatsApp to make patient care, query results are captured within the system.
+                                        </div>
+                                        <br>
+                                        <div class="col-6 mt-3">
+                                            Stack 
+                                            <div class="row">
+                                                <br>
+                                                <div class="col-12 col-md-5"><code>Angular</code></div>
+                                                <div class="col-12 col-md-5"><code>Firebase</code></div>
+                                                <div class="col-12 col-md-5"><code>Ionic</code></div>
+                                                <div class="col-12 col-md-5"><code>Bootstrap</code></div>
+                                                <div class="col-12 col-md-5"><code>Angular Material</code></div>
+                                                <div class="col-12 col-md-5"><code>Laravel</code></div>
+                                                <div class="col-12 col-md-5"><code>MySQL</code></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -173,12 +193,22 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <div class="row">
+                                        <div class="col-12">
+                                            Creation of a lost pet web system, its main purpose is to generate a report of a lost pet to help its owner find it, or create a report of a found pet and it reaches the owners of lost pets with similar characteristics.
+                                        </div>
+                                        <br>
+                                        <div class="col-12 col-md-6 mt-3">
+                                            Stack 
+                                            <div class="row">
+                                                <br>
+                                                <div class="col-12 col-md-5"><code>Bootstrap</code></div>
+                                                <div class="col-12 col-md-5"><code>Javascript </code></div>
+                                                <div class="col-12 col-md-5"><code>Laravel</code></div>
+                                                <div class="col-12 col-md-5"><code>MySQL</code></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +218,7 @@
         </div>
     </section>
 
-    <section class="techs">
+    <section class="techs" id="techs">
         <div class="container" id="prueba">
             <div class="row" >
                 <div class="col-auto">
@@ -272,13 +302,10 @@
                 <div class="col-12 col-md-4 col-lg-3">
                     <br>
                     <div class="card">
-                        <img src="Assets/icons8-c-sharp-logotipo.svg" id="icons" class="img-fluid mx-auto d-block" alt="...">
+                        <img src="Assets/bootstrap-5-1.svg" style="height: 15%" id="icons" class="img-fluid mx-auto d-block mb-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">C Sharp</h5>
-                            <p class="card-text">C# is a modern, object-oriented, and type-safe programming language. C#
-                                enables developers to build many types of secure and robust applications that run in .
-                                NET. C# has its roots in the C family of languages and will be immediately familiar to
-                                C, C++, Java, and JavaScript programmers.</p>
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">Bootstrap makes responsive web design a reality. It makes it possible for a web page or app to detect the visitor's screen size and orientation and automatically adapt the display accordingly.</p>
                         </div>
                     </div>
                 </div>
